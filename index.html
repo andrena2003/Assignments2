@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Audi</title>
+    <title>Audi R8 V10 GT - Pure Performance</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  
+  <style>
+    @keyframes navbarSlideDown {
+  from {
+    transform: translateY(-60px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.navbar {
+  animation: navbarSlideDown 0.8s ease;
+}
+  </style>
 </head>
 <body>
-    
-</body>
-</html>
+
+  <header class="navbar">
+
+    <a href="gvh.html">
+      <img src="images/AudiLogo.jpg.png" alt="Company Logo" class="logo" />
+    </a>
+    <nav>
+      <a href="#hero-section" class="nav-link">Home</a>
+      <a href="#blog-posts" class="nav-link">Insights</a>
+      <a href="#" class="nav-link">Gallery</a>
+      <a href="contact.html" class="nav-link">Contact</a> <!-- Update this line -->
+    </nav>
+  </header>
+
+  <div class="video-overlay" id="hero-section"> 
+        <video autoplay muted loop class="background-video">
+            <source src="videos/D0F.mp4" type="video/mp4">
+        </video>
+
+  <div class="video-overlay-text">
+    <h1 class="hero-title">Audi R8 V10 GT</h1>
+    <p class="hero-tagline">Experience the Pinnacle of Performance</p>
+    <a href="#blog-posts" class="hero-scroll-down">Explore Insights <span class="arrow-down">&#x2193;</span></a>
+</div>
+  </div>
