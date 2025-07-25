@@ -5,6 +5,14 @@ body {
   background: #fff;
   color: #000;
 }
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
 
 /* Navbar styles */
 a {
@@ -169,7 +177,7 @@ nav {
 }
 
 .post-card {
-  background: 1px; #fff;
+  background: #fff;
   border-radius: 8px;
   overflow: hidden;
   display: flex;
@@ -253,6 +261,16 @@ nav {
     transition: background-color 0.3s ease;
     font-size: 1rem;
 }
+.read-more {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.read-more:hover {
+  color: white;
+}
+
 /* Responsive styles for read more button */
 @media (max-width: 600px) {
     .read-more {
@@ -617,3 +635,22 @@ nav {
 .post-sidebar a:hover {
   color: #700;
 }
+.post-banner {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+@media (max-width: 768px) {
+  .single-post-layout {
+    grid-template-areas:
+      "post-header"
+      "post-content"
+      "post-sidebar"
+      "footer";
+    grid-template-columns: 1fr;
+  }
+}
+
+
