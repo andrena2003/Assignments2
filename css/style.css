@@ -315,14 +315,14 @@ nav {
   flex: 1;
   min-width: 250px;
 }
-
+/* Form */
 .form-side h1 {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
   margin-bottom: 1rem;
   color: #222;
 }
-
+/* Form fields */
 .form-side p {
   font-size: 1rem;
   margin-bottom: 1.5rem;
