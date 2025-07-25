@@ -294,3 +294,37 @@ nav {
   gap: 2rem;
   flex-wrap: wrap;
 }
+/* Image side */
+.image-side {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Image */
+.image-side img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+/* Form side */
+.form-side {
+  flex: 1;
+  min-width: 250px;
+}
+
+.form-side h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.form-side p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
