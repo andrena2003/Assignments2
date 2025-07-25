@@ -553,3 +553,67 @@ nav {
   grid-area: footer;
 }
 }
+
+
+
+/* Single Post Modern Styling */
+.single-post-layout {
+  max-width: 1200px;
+  margin: 8rem auto 4rem;
+  padding: 2rem;
+  background: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
+}
+
+.post-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+.post-content {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.post-content p {
+  margin-bottom: 1.2rem;
+}
+
+.post-sidebar {
+  background: #fafafa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.post-sidebar h3 {
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #900;
+}
+
+.post-sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post-sidebar li {
+  margin-bottom: 0.8rem;
+}
+
+.post-sidebar a {
+  color: #900;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.post-sidebar a:hover {
+  color: #700;
+}
