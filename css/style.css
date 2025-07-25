@@ -420,6 +420,7 @@ button:hover {
   .nav-link::after:hover {
     transform: scaleX(1);
   }
+  
   /* Single Post Styles */
   .single-post {
     max-width: 800px;
