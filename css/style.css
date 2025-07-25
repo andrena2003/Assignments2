@@ -217,3 +217,36 @@ nav {
     justify-content: center;
     align-items: center;
   }
+/* Post card */
+  .card-content h2 {
+    font-size: 1rem;
+  }
+/* Post excerpt */
+  .card-content p {
+    font-size: 0.85rem;
+  }
+/* Read more button */
+.read-more {
+    display: inline-block;
+    margin-top: 1rem;
+    color: white;
+    background-color: #900;
+    padding: 0.5em 1.2em;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+/* Responsive styles for read more button */
+@media (max-width: 600px) {
+    .read-more {
+        padding: 0.5em 1em;
+        font-size: 0.95rem;
+        width: 100%;
+        text-align: center;
+    }
+}
+/* Hover effect for read more button */
+.read-more:hover {
+  background-color: #700;
+}
