@@ -471,14 +471,4 @@ nav {
         border-radius: 8px;
         margin-bottom: 1.5rem;
     }
-    .single-post .read-more {
-        display: inline-block;
-        margin-top: 1rem;
-        color: white;
-        background-color: #900;
-        padding: 0.5em 1.2em;
-        border-radius: 5px;
-        font-weight: bold;
-        transition: background-color 0.3s ease;
-        font-size: 1rem;
-    }
+   
